@@ -1,0 +1,204 @@
+/* body{
+    background-color: blue;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f0eef1;
+}
+
+header {
+    background: white;
+    box-shadow: 5px 0px 4px black;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    padding: 10px;
+}
+
+nav h1 {
+    color: black;
+    font-size: 3rem;
+    background-color: inherit;
+    text-shadow: 5px 0px 3px yellow;
+}
+
+.buttonLogin {
+    background-color: inherit;
+    width: 80px;
+    height: 40px;
+}
+
+/* iske niche main page  */
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maincontainer .addButton {
+    width: 220px;
+    text-align: center;
+    padding: 0px 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.maincontainer .addButton:hover {
+    scale: 1.1;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.form {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+
+}
+
+form {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    gap: 20px;
+}
+
+form .input {
+    width: 90%;
+    padding: 5px 0px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+form>.submitbtn {
+    border: none;
+    width: 90%;
+    background-color: forestgreen;
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form>.submitbtn:hover {
+    scale: 1.02;
+}
+
+.submitbtn button {
+    background-color: forestgreen;
+    border: none;
+    font-size: 1.1rem;
+}
+
+form .createbook {
+    background-color: aquamarine;
+}
+
+form .readbook {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#removeform{
+    width: 30px;
+    position: absolute;
+    padding: 4px;
+    right: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#removeform:hover{
+    color: red;
+}
+
+
+.book-box {
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.gridarea {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.card-box{
+    width: 231px;
+    height: 295px;
+    background-color: #ccbfbf;
+    /* background-image: url(./joker.jpg); */
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    
+}
+.card-box > div{
+    background-color: burlywood;
+    margin-top: 20px;
+}

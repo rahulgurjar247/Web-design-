@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./library.css">
+    <style></style>
+    <title>library of books</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Books library</h1>
+            <button class="buttonLogin">Login</button>
+        </nav>
+    </header>
+    <main class="maincontainer">
+        <button class="addButton" id="addBtn">+ add book</button>
+
+        <!-- <div class="addButton">
+            <h2>+ add</h2>
+        </div> -->
+
+        <div class="gridarea"></div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            rahul gurjar
+        </p>
+        <a href="https://github.com/michalosman" target="_blank">
+            <i class="fab fa-github" aria-hidden="true"></i></a>
+    </footer>
+    <div class="form" id="form">
+        <form action="">
+            <div>
+                <button id="removeform">x</button>
+            </div>
+            <h2>Add new book</h2>
+            <input class="input" id="title" type="text" placeholder="Title" maxlength="100" name="title" required>
+            <input class="input" id="author" type="text" maxlength="100" name="author" placeholder="author" required>
+            <input class="input" id="page" type="number"  name="number" placeholder="page number"  maxlength="1000" required>
+            <div class="readbook">
+                <label for="iread">do you read book</label>
+                <input type="checkbox" name="iread">
+            </div>
+
+            <button id="submitbtn" class="submitbtn">Submit</button>
+
+        </form>
+
+    </div>
+
+
+</body>
+<script src="./library.js"></script>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      color: hsl(0, 0%, 100%);
+      font-size: 14px;
+
+    }
+
+    .inter {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0;
+    }
+
+    .container {
+      width: 300px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: hsl(0, 0%, 12%);
+    }
+
+    .img {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      /* border-radius: 50%; */
+    }
+
+    .img>img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    p,
+    h2 {
+      text-align: center;
+    }
+
+    .share {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .share ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .share ul li {
+      height: 30px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 5px;
+      padding-top: 10px;
+      font-weight: bold;
+      background-color: hsl(0, 0%, 20%);
+    }
+
+    .share li:hover {
+      background-color: hsl(75, 94%, 57%);
+    }
+  </style>
+</head>
+
+<body class="inter">
+  <div class="container">
+    <div class="img">
+      <img src="./assets/images/yogesh.jpg" alt="">
+    </div>
+
+    <h2>Yogesh </h3>
+      <p class="inter" style="color: hsl(75, 94%, 57%)">London, United Kingdom</p>
+
+      <p class="inter"> "Front-end developer and avid reader."</p>
+      <div class="share">
+        <ul class="inter">
+          <li>GitHub</li>
+          <li>Frontend Mentor</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+
+
+      <div class="attribution">
+         Coded by <a href="#">Rahul gurjar </a>.
+      </div>
+  </div>
+
+</body>
+
+</html>

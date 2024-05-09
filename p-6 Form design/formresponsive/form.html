@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box ;
+            font-size: 1.3rem;
+            font-family: cursive;
+        }
+        .form{
+            width: 450px;
+            background-color: grey;
+            margin: auto;
+            /* border: 1px solid; */
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            box-shadow: 3px 3px 3px black;
+        }
+        .form h3{
+            text-align: center;
+        }
+        .form input{
+            width: 100%;
+            padding-left: 10px;
+        }
+        .form button{
+            margin-top: 10px;
+            background-color: blue;
+            border: none;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        #alert{
+            width: 450px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="alert">rahul</div>
+    <div class="form">
+        <h3>LOG IN </h3>
+
+        <label for="name">name</label>
+        <input type="text" maxlength="20" id="name">
+
+        <label for="email">Email</label>
+        <input type="email" maxlength="30" id="email">
+
+        <label for="number" >Number</label>
+        <input type="number" id="number" maxlength="10">
+
+        <button id="submit">LOG IN</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

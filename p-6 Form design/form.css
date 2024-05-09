@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: cursive;
+
+}
+
+.main{
+    width: 100vw;
+    height: 70vh;
+    background-color: blue;
+    padding: 30px;
+}
+.data{
+    width: 318px;
+    height: 299px;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 2rem;
+    color: white;
+    font-family: cursive;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.data>p{
+    font-size: 2.5rem;
+}
+
+.form{
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    right: 250px;
+    top: 150px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+label{
+    display: block;
+    width: 100%;
+    
+}
+input{
+    width: 100%;
+    border: none;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+input:focus{
+    border: none;
+}
+
+form>button{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+form>h4{
+    text-align: center;
+}
+
+
+
+/* mini box */
+
+.mini{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+    gap: 50px;
+}
+
+.mini>.link>.logo{    
+    display: flex;
+    gap: 5px;
+}
+
+.mini .logo img{
+    width: 50px;
+}

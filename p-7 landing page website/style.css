@@ -1,0 +1,497 @@
+body {
+    /* background-color: hsl(217, 28%, 15%); */
+    color: white;
+    /* padding: 40px; */
+    font-size: 14px;
+}
+
+.raleway-uniquifier {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+header {
+    background-color: hsl(217, 28%, 15%);
+    padding: 40px 100px;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%);
+
+}
+
+nav .logo img {
+    width: 140px;
+}
+
+.nav-link ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding-right: 100px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-link ul li a:hover{
+    transform : scale(1.5);
+    color: blue;
+}
+
+.main-screen {
+    background-image: url(./images/bg-curvy-desktop.svg);
+}
+
+
+/* intro section start */
+
+.intro {
+    background-color: hsl(217, 28%, 15%);
+    padding: 40px 0px;
+
+}
+
+.intro .container {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.intro .container img {
+    width: 70%;
+}
+
+.intro .container h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: raleway;
+    /* width: 80%; */
+    font-size: 2rem;
+    z-index: 5;
+}
+
+.intro .container p {
+    z-index: 5;
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    /* background-image: url(./images/bg-curvy-desktop.svg); */
+
+}
+
+.intro .container button {
+    z-index: 5;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+/* try */
+.try {
+    bottom: 0px;
+    position: absolute;
+    height: 420px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 480px;
+    background-image: url(./images/bg-curvy-desktop.svg);
+}
+
+
+/* facility style  */
+
+.facility {
+    background-color: hsl(218, 28%, 13%);
+    padding: 20px 0px 40px 0px;
+}
+
+.facility .f-container {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.facility .f-container .f-box {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facility .f-container .f-box h4 {
+    margin-top: 20px;
+}
+
+.f-container .f-box p {
+    text-align: center;
+}
+
+
+/* producvtive section style */
+
+.productive {
+    padding: 40px 0px 40px 0px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.p-container {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.p-container div {
+    width: 450px;
+}
+
+.p-container .p-first img {
+    width: inherit;
+}
+
+.p-container .checkout:hover{
+    color: blue;
+}
+
+.p-container .p-second {
+    display: flex;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+/* card section design */
+
+.cards {
+    padding: 70px 0px 80px 0px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.cardarea {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: hsl(219, 30%, 18%);
+    /* display: flex; */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.profile img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/* instant contact email */
+
+.email {
+    width: 50vw;
+    margin: auto;
+    top: 130px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 3px 3px 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.email p {
+    width: 70%;
+}
+
+.email>div {
+    display: flex;
+    gap: 30px;
+}
+
+.email input {
+    padding-left: 20px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.email button {
+    width: 150px;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(176, 68%, 64%);
+}
+
+
+/* footer area */
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 50px 0px 50px 0px;
+
+}
+
+footer .container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+footer .secondcontainer .footerlocation {
+    display: flex;
+    gap: 10px;
+}
+
+.footerlocation>img {
+    width: 40px;
+    height: 40px;
+}
+
+footer .secondcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+footer .secondcontainer>div {
+    width: 300px;
+    /* display: flex; */
+}
+
+
+footer .contact>div {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+footer .information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .policy {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 500px) {
+    header {
+        padding: 15px 10px;
+    }
+
+    nav .logo img {
+        width: 70px;
+    }
+
+    .nav-link ul {
+        gap: 20px;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .intro {
+        padding: 40px 0px;
+    }
+
+    .intro .container {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .intro .container img {
+        width: 90%;
+    }
+
+    .try {
+        /* bottom: 0px; */
+        position: absolute;
+        height: 220px;
+        width: 100vw;
+        top: 660px;
+        background-image: url(./images/bg-curvy-mobile.svg);
+        background-image: none;
+    }
+
+    .productive {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .p-container {
+        width: 90vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .p-container div {
+        width: 90%;
+    }
+
+    .p-container .p-second {
+        gap: 10px;
+    }
+
+
+    /* instant email */
+    .email {
+        width: 80vw;
+        top: 130px;
+        border-radius: 20px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .email p {
+        width: 95%;
+    }
+
+    .email>div {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email input {
+        padding-left: 20px;
+        width: 200px;
+    }
+
+    .email button {
+        width: 220px;
+        padding-left: 20px;
+        height: 32px;
+    }
+
+    /* footer area */
+    footer{
+        padding: 80px 0px 50px 0px;
+    }
+
+    footer .container {
+        width: 90vw;
+        align-items: center;
+    }
+
+    footer .secondcontainer .footerlocation {
+        display: flex;
+        gap: 10px;
+    }
+
+    .footerlocation>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .secondcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    footer .secondcontainer>div {
+        width: 300px;
+    }
+
+    footer .contact div {
+        gap: 10px;
+        justify-content: center;
+    }
+    footer .contact{
+        align-items: center;
+    }
+
+    footer .information {
+        align-items: center;
+    }
+
+    footer .policy {
+       align-items: center;
+    }
+
+
+
+
+
+
+
+}
